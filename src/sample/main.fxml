@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #68d468;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main">
+   <children>
+      <Label layoutX="269.0" layoutY="-1.0" prefHeight="66.0" prefWidth="62.0" text="App" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="30.0" />
+         </font></Label>
+      <AnchorPane layoutY="65.0" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #b2edb2;">
+         <children>
+            <TextField fx:id="log" layoutX="211.0" layoutY="134.0" prefHeight="26.0" prefWidth="177.0" promptText="Логин" />
+            <TextField fx:id="pass" layoutX="211.0" layoutY="176.0" prefHeight="26.0" prefWidth="178.0" promptText="Пароль" />
+            <Button fx:id="registration" layoutX="256.0" layoutY="252.0" mnemonicParsing="false" onAction="#clickOnRegistration" prefHeight="26.0" prefWidth="88.0" text="Регистрация" />
+            <Button fx:id="authorization" layoutX="256.0" layoutY="214.0" mnemonicParsing="false" onAction="#clickOnAuthorization" text="Авторизация" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

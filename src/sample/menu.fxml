@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #68d468;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Menu">
+    <children>
+        <Label layoutX="269.0" layoutY="-1.0" prefHeight="66.0" prefWidth="62.0" text="App" textFill="WHITE">
+            <font>
+                <Font name="Baskerville Old Face" size="30.0" />
+            </font></Label>
+        <AnchorPane layoutY="65.0" prefHeight="623.0" prefWidth="600.0" style="-fx-background-color: #b2edb2;">
+         <children>
+            <Button fx:id="indicator" layoutX="197.0" layoutY="143.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="206.0" text="Показатели" />
+            <Button fx:id="diet" layoutX="197.0" layoutY="206.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="206.0" text="Питание" />
+            <Button fx:id="training" layoutX="197.0" layoutY="268.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="206.0" text="Упражнения" />
+            <Button fx:id="program" layoutX="197.0" layoutY="331.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="206.0" text="Программа реабилитации" />
+            <Button fx:id="setting" layoutX="197.0" layoutY="394.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="206.0" text="Настройки" />
+         </children></AnchorPane>
+      <Button fx:id="exit" layoutX="496.0" layoutY="14.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="90.0" text="Выйти" onAction="#exit" />
+    </children>
+</AnchorPane>

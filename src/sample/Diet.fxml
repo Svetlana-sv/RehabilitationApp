@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #68d468;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.Diet">
+    <children>
+
+        <Label layoutX="269.0" layoutY="-1.0" prefHeight="66.0" prefWidth="62.0" text="App" textFill="WHITE">
+            <font>
+                <Font name="Baskerville Old Face" size="30.0"/>
+            </font>
+        </Label>
+        <AnchorPane layoutY="65.0" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #b2edb2;"/>
+    </children>
+</AnchorPane>
+

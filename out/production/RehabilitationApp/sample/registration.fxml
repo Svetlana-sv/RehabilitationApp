@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #68d468;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Registration">
+    <children>
+        <Label layoutX="269.0" layoutY="-1.0" prefHeight="66.0" prefWidth="62.0" text="App" textFill="WHITE">
+            <font>
+                <Font name="Baskerville Old Face" size="30.0" />
+            </font></Label>
+        <AnchorPane layoutY="65.0" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #b2edb2;">
+         <children>
+            <TextField fx:id="surname" layoutX="87.0" layoutY="74.0" prefHeight="26.0" prefWidth="176.0" promptText="Введите фамилию" />
+            <TextField fx:id="namereg" layoutX="87.0" layoutY="131.0" prefHeight="26.0" prefWidth="176.0" promptText="Введите имя" />
+            <TextField fx:id="middle_name_reg" layoutX="87.0" layoutY="187.0" prefHeight="26.0" prefWidth="176.0" promptText="Введите отчество" />
+             <TextField fx:id="polis_reg" layoutX="87.0" layoutY="242.0" prefHeight="26.0" prefWidth="176.0" promptText="Введите номер полиса" />
+             <TextField fx:id="login_reg" layoutX="87.0" layoutY="292.0" prefHeight="26.0" prefWidth="176.0" promptText="Логин" />
+            <PasswordField fx:id="password_reg" layoutX="87.0" layoutY="353.0" prefHeight="26.0" prefWidth="176.0" promptText="Пароль" />
+            <PasswordField fx:id="password_confirm" layoutX="87.0" layoutY="392.0" prefHeight="26.0" prefWidth="176.0" promptText="Подтвердите пароль" />
+            <Label layoutX="308.0" layoutY="67.0" prefHeight="40.0" prefWidth="227.0" text="Поле обязательно для заполнения. Используйте буквы русского алфавита." wrapText="true" />
+            <Label layoutX="308.0" layoutY="118.0" prefHeight="40.0" prefWidth="227.0" text="Поле обязательно для заполнения. Используйте буквы русского алфавита." wrapText="true" />
+            <Label layoutX="308.0" layoutY="177.0" prefHeight="19.0" prefWidth="227.0" text="Используйте буквы русского алфавита." />
+            <Label layoutX="308.0" layoutY="235.0" prefHeight="40.0" prefWidth="227.0" text="Поле обязательно для заполнения. Пример для заполнения 123-456-789-00 " wrapText="true" />
+            <Label layoutX="308.0" layoutY="359.0" prefHeight="40.0" prefWidth="262.0" text="Пароль не может быть короче 8 символов и должен состоять из латинских букв и цифр." wrapText="true" />
+            <Button fx:id="reg" layoutX="258.0" layoutY="466.0" mnemonicParsing="false" onAction="#registration" text="Регистрация" />
+            <Label layoutX="308.0" layoutY="285.0" prefHeight="40.0" prefWidth="242.0" text="Логин не может быть короче 5 символов. Используйте буквы латинского языка и цифры." wrapText="true" />
+         </children></AnchorPane>
+    </children>
+</AnchorPane>
